@@ -35,7 +35,7 @@
   "description": "Check your Valorant Store without opening the game. Install the app, it takes just a few KBs!",
   "screenshots": [
     {
-      "src": "./images/phoenix.png",
+      "src": "https://checkvalorant.gamzo.in/images/phoenix.png",
       "type": "image/png",
       "sizes": "406x738"
     }
