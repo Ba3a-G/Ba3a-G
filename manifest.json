@@ -42,9 +42,7 @@
       "src": "/images/favicons/72.png",
       "type": "image/png",
       "sizes": "72x72"
-    },
-	
-	
+    }	
   ],
   "start_url": "/?source=pwa",
   "background_color": "#ffffff",
