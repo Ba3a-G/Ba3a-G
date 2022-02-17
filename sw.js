@@ -36,7 +36,7 @@ define(["./workbox-442d81da"], (function(e) {
         url: "css/style.css",
         revision: "181c46a5154b6789d254ea4b47ea5782"
     }, {
-        url: "images/favicons/android-chrome-192x192.png",
+        url: "images/favicons/192.png",
         revision: "e5b8e38b33e5b16cc0284c9afbd64c39"
     }, {
         url: "images/favicons/android-chrome-512x512.png",
@@ -99,7 +99,7 @@ define(["./workbox-442d81da"], (function(e) {
         url: "tofservice.html",
         revision: "75cc176510c35dcdea7a0dfdea0399d9"
     }, {
-        url: "weapons/favicons/android-chrome-192x192.png",
+        url: "weapons/favicons/192.png",
         revision: "e5b8e38b33e5b16cc0284c9afbd64c39"
     }, {
         url: "weapons/favicons/android-chrome-512x512.png",
@@ -141,4 +141,8 @@ define(["./workbox-442d81da"], (function(e) {
         ignoreURLParametersMatching: [/^utm_/, /^fbclid$/, /^source/]
     })
 }));
+
+self.addEventListener('fetch', function(event) {
+ console.log(event.request.url);
+})
 //# sourceMappingURL=sw.js.map
