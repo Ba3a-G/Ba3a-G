@@ -10,20 +10,47 @@
     {
       "src": "/images/favicons/android-chrome-192x192.png",
       "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
+      "sizes": "192x192"
     },
     {
       "src": "/images/favicons/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
-    }
+    },
+	{
+      "src": "/images/favicons/maskable_icon-320x320.png",
+      "type": "image/png",
+      "sizes": "320x320",
+	  "purpose": "maskable"
+    },
+	{
+      "src": "/images/favicons/120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+	{
+      "src": "/images/favicons/180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+	{
+      "src": "/images/favicons/144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+	{
+      "src": "/images/favicons/72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+	
+	
   ],
   "start_url": "/?source=pwa",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#3367D6",
+  "theme_color": "#13181b",
   "shortcuts": [
     {
       "name": "Check Valorant Store",
@@ -36,7 +63,12 @@
   "description": "Check your Valorant Store without opening the game. Install the app, it takes just a few KBs!",
   "screenshots": [
     {
-      "src": "https://checkvalorant.gamzo.in/images/phoenix.png",
+      "src": "/images/phoenix.png",
+      "type": "image/png",
+      "sizes": "406x738"
+    },
+    {
+      "src": "/images/phoenix.jpg",
       "type": "image/png",
       "sizes": "406x738"
     }
