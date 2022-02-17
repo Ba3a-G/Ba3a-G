@@ -5,7 +5,8 @@
     {
       "src": "/images/favicons/safari-pinned-tab.svg",
       "type": "image/svg+xml",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     },
     {
       "src": "/images/favicons/android-chrome-192x192.png",
