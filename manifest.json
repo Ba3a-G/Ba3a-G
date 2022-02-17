@@ -20,7 +20,7 @@
   ],
   "start_url": "/?source=pwa",
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "minimal-ui",
   "scope": "/",
   "theme_color": "#3367D6",
   "shortcuts": [
@@ -28,7 +28,7 @@
       "name": "Check Valorant Store",
       "short_name": "Check",
       "description": "Check ingame Valorant store for today",
-      "url": "/today?source=pwa",
+      "url": "/?source=pwa",
       "icons": [{ "src": "/images/favicons/android-chrome-192x192.png", "sizes": "192x192" }]
     }
   ],
